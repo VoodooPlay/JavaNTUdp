@@ -9,7 +9,7 @@ public class lab2 {
     static Scanner cin = new Scanner(System.in);
     static Random random = new Random();
 
-    public static void lab2(String[] args) {
+    public static void start() {
         int[][] matr;
         int rows = 0, cols = 0;
 
