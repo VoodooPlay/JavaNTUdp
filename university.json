@@ -1,0 +1,307 @@
+{
+  "name": "Test University",
+  "head": {
+    "studentId": "S90",
+    "firstName": "John",
+    "lastName": "Doe",
+    "patronymic": "Michael",
+    "sex": "MALE",
+    "type": "Student"
+  },
+  "faculties": [
+    {
+      "name": "Faculty of Science",
+      "head": {
+        "studentId": "S91",
+        "firstName": "Daniel",
+        "lastName": "Evans",
+        "patronymic": "Michael",
+        "sex": "MALE",
+        "type": "Student"
+      },
+      "departments": [
+        {
+          "name": "Mathematical Modeling",
+          "head": {
+            "studentId": "S93",
+            "firstName": "Irina",
+            "lastName": "Zakharova",
+            "patronymic": "Alexeevna",
+            "sex": "FEMALE",
+            "type": "Student"
+          },
+          "groups": [
+            {
+              "name": "CS-101",
+              "head": {
+                "studentId": "S97",
+                "firstName": "John",
+                "lastName": "Doe",
+                "patronymic": "Michael",
+                "sex": "MALE",
+                "type": "Student"
+              },
+              "students": [
+                {
+                  "studentId": "S105",
+                  "firstName": "Charlie",
+                  "lastName": "Johnson",
+                  "patronymic": "David",
+                  "sex": "MALE"
+                },
+                {
+                  "studentId": "S106",
+                  "firstName": "Emma",
+                  "lastName": "Williams",
+                  "patronymic": "Sophia",
+                  "sex": "FEMALE"
+                }
+              ]
+            },
+            {
+              "name": "CS-102",
+              "head": {
+                "studentId": "S98",
+                "firstName": "Alice",
+                "lastName": "Smith",
+                "patronymic": "Jane",
+                "sex": "FEMALE",
+                "type": "Student"
+              },
+              "students": [
+                {
+                  "studentId": "S107",
+                  "firstName": "Liam",
+                  "lastName": "Brown",
+                  "patronymic": "James",
+                  "sex": "MALE"
+                },
+                {
+                  "studentId": "S108",
+                  "firstName": "Olivia",
+                  "lastName": "Jones",
+                  "patronymic": "Grace",
+                  "sex": "FEMALE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Statistics and Data Analysis",
+          "head": {
+            "studentId": "S94",
+            "firstName": "Maxim",
+            "lastName": "Sergeyenko",
+            "patronymic": "Grigorievich",
+            "sex": "MALE",
+            "type": "Student"
+          },
+          "groups": [
+            {
+              "name": "CS-103",
+              "head": {
+                "studentId": "S99",
+                "firstName": "David",
+                "lastName": "Brown",
+                "patronymic": "Robert",
+                "sex": "MALE",
+                "type": "Student"
+              },
+              "students": [
+                {
+                  "studentId": "S109",
+                  "firstName": "Noah",
+                  "lastName": "Garcia",
+                  "patronymic": "Henry",
+                  "sex": "MALE"
+                },
+                {
+                  "studentId": "S110",
+                  "firstName": "Ava",
+                  "lastName": "Martinez",
+                  "patronymic": "Isabella",
+                  "sex": "FEMALE"
+                }
+              ]
+            },
+            {
+              "name": "CS-104",
+              "head": {
+                "studentId": "S100",
+                "firstName": "Emma",
+                "lastName": "Johnson",
+                "patronymic": "Rose",
+                "sex": "FEMALE",
+                "type": "Student"
+              },
+              "students": [
+                {
+                  "studentId": "S111",
+                  "firstName": "William",
+                  "lastName": "Davis",
+                  "patronymic": "Benjamin",
+                  "sex": "MALE"
+                },
+                {
+                  "studentId": "S112",
+                  "firstName": "Sophia",
+                  "lastName": "Rodriguez",
+                  "patronymic": "Charlotte",
+                  "sex": "FEMALE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Humanities",
+      "head": {
+        "studentId": "S92",
+        "firstName": "Sophia",
+        "lastName": "Clark",
+        "patronymic": "Elizabeth",
+        "sex": "FEMALE",
+        "type": "Student"
+      },
+      "departments": [
+        {
+          "name": "Optimization and Operations Research",
+          "head": {
+            "studentId": "S95",
+            "firstName": "Elena",
+            "lastName": "Kravchenko",
+            "patronymic": "Vasilyevna",
+            "sex": "FEMALE",
+            "type": "Student"
+          },
+          "groups": [
+            {
+              "name": "CS-105",
+              "head": {
+                "studentId": "S101",
+                "firstName": "Michael",
+                "lastName": "Williams",
+                "patronymic": "James",
+                "sex": "MALE",
+                "type": "Student"
+              },
+              "students": [
+                {
+                  "studentId": "S113",
+                  "firstName": "James",
+                  "lastName": "Lopez",
+                  "patronymic": "Elijah",
+                  "sex": "MALE"
+                },
+                {
+                  "studentId": "S114",
+                  "firstName": "Mia",
+                  "lastName": "Hernandez",
+                  "patronymic": "Scarlett",
+                  "sex": "FEMALE"
+                }
+              ]
+            },
+            {
+              "name": "CS-106",
+              "head": {
+                "studentId": "S102",
+                "firstName": "Sophia",
+                "lastName": "Miller",
+                "patronymic": "Anne",
+                "sex": "FEMALE",
+                "type": "Student"
+              },
+              "students": [
+                {
+                  "studentId": "S115",
+                  "firstName": "Benjamin",
+                  "lastName": "Gonzalez",
+                  "patronymic": "Lucas",
+                  "sex": "MALE"
+                },
+                {
+                  "studentId": "S116",
+                  "firstName": "Charlotte",
+                  "lastName": "Wilson",
+                  "patronymic": "Avery",
+                  "sex": "FEMALE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Computer Modeling",
+          "head": {
+            "studentId": "S96",
+            "firstName": "Vadim",
+            "lastName": "Polyakov",
+            "patronymic": "Andreevich",
+            "sex": "MALE",
+            "type": "Student"
+          },
+          "groups": [
+            {
+              "name": "CS-107",
+              "head": {
+                "studentId": "S103",
+                "firstName": "Daniel",
+                "lastName": "Taylor",
+                "patronymic": "Thomas",
+                "sex": "MALE",
+                "type": "Student"
+              },
+              "students": [
+                {
+                  "studentId": "S117",
+                  "firstName": "Elijah",
+                  "lastName": "Anderson",
+                  "patronymic": "Daniel",
+                  "sex": "MALE"
+                },
+                {
+                  "studentId": "S118",
+                  "firstName": "Amelia",
+                  "lastName": "Thomas",
+                  "patronymic": "Evelyn",
+                  "sex": "FEMALE"
+                }
+              ]
+            },
+            {
+              "name": "CS-108",
+              "head": {
+                "studentId": "S104",
+                "firstName": "Olivia",
+                "lastName": "Anderson",
+                "patronymic": "Grace",
+                "sex": "FEMALE",
+                "type": "Student"
+              },
+              "students": [
+                {
+                  "studentId": "S119",
+                  "firstName": "Lucas",
+                  "lastName": "Taylor",
+                  "patronymic": "Jack",
+                  "sex": "MALE"
+                },
+                {
+                  "studentId": "S120",
+                  "firstName": "Harper",
+                  "lastName": "Moore",
+                  "patronymic": "Lillian",
+                  "sex": "FEMALE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
